@@ -1,0 +1,85 @@
+src/styles/App.css body {
+  font-family: Arial, sans-serif;
+}
+
+.headerText {
+  text-align: center;
+  color: gold;
+  margin-top: 5%;
+  padding-top: 5%;
+  /* border: 2px solid gold; */
+  border-top: none; /* Remove the top border */
+  /* display: inline-block; Make the border wrap tightly around the text */
+  padding: 20px; /* Add padding inside the border for spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Optional: Adds a background color for contrast */
+}
+
+.headerContainer {
+  text-align: center; /* Center the inline-block element */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("/B&G.jpg"); /* Make sure the image is in the public folder */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+/* .container {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); Adds a translucent black background to the container */
+/* padding: 20px;
+  border-radius: 8px;
+} */
+
+/* .hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hotel-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.hotel-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hotel-detail {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hotel-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+} */

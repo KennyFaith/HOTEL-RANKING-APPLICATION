@@ -1,0 +1,26 @@
+.toolBar {
+  color: gold;
+}
+
+/* src/Styles/Navbar.css */
+/* src/Styles/Navbar.css */
+.toolBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: inherit; /* inherit the color from the AppBar */
+  border: 2px solid transparent; /* Add border with transparent color */
+  padding: 5px; /* Add padding to ensure the border is not too tight around the text */
+  border-radius: 4px; /* Optional: Add some border radius for rounded corners */
+  transition: border-color 0.3s; /* Smooth transition for the border color */
+}
+
+.links a:hover {
+  text-decoration: none;
+  border-color: #b8860b; /* Change border color to inherit on hover */
+}
